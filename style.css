@@ -16,6 +16,7 @@ h3{
 
 header {
     display: grid;
+    gap: 0px;
     background-color: #4CAF50;
     padding: 1em;
     color: white;
