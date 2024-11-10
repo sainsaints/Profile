@@ -80,7 +80,7 @@ section ul {
 .schools{
     border: 1px solid;
     padding: 1rem;
-    flex: 1 0 250px;
+    flex: 1 0 300px;
     margin-bottom: 1rem;
 }
 
@@ -102,6 +102,6 @@ footer {
     }
 
     .schools{
-        flex: 1 0 250px;
+        flex: 1 0 300px;
     }
 }
