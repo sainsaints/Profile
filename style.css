@@ -63,11 +63,25 @@ section {
 section h2 {
     margin-bottom: 0.5em;
     color: #4CAF50;
+    text-align: center;
 }
 
 section ul {
     list-style-type: square;
     margin-left: 1em;
+}
+
+.education{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+}
+
+.schools{
+    border: 1px solid;
+    padding: 1rem;
+    flex: 1 0 250px;
+    margin-bottom: 1rem;
 }
 
 footer {
@@ -85,5 +99,9 @@ footer {
     }
     nav ul {
         flex-direction: column;
+    }
+
+    .schools{
+        flex: 1 0 250px;
     }
 }
